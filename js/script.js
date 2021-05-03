@@ -9,6 +9,7 @@ function result(){
     var threeB =document.getElementById("3b");
     var points=0;
     var percentange;
+    var comment;
 
     if(oneA.checked == true){
         points += 6;
@@ -30,7 +31,18 @@ function result(){
         alert("please answer all questions")
     }
 
+
     percentange=(points/18)*100;
 
-    document.getElementById("answer").innerHTML="your total score is " + percentange +"%";
+    if(percentange >80){
+        comment= "you have excellently passed";
+    }
+    else if(percentange >= 50 && percentange <80){
+        comment="you have fairly passed";
+    }
+    else {
+        comment="you have performed poorly. you need to retake the test";
+    }
+
+    document.getElementById("answer").innerHTML="your total score is " + percentange +"%"+" \n"+ comment;
 }
