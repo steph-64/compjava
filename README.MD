@@ -1,13 +1,12 @@
 #JAVASCRIOT QUESTIONNAIRE
-This is a web application that takes the user's day of birth and calculates the day of week they were born
-depending on their gender outputs ,their Akan name.
+This is a web application that the students take to answer questions on javascript.
 ## Prerequisites
 Basic Git knowledge, including an installed version of Git.
 ##### Technologies Used
 - HTML & CSS 
 - Javascript
 ##### Setup Instructions and Installation
-- Clone this repository to a location in your file system. `git clone https://github.com/steph-64/java-questinnaire.git'
+- Clone this repository to a location in your file system. `git clone https://github.com/steph-64/java-questoinnaire'
 - Open terminal command line then navigate to the root folder of the application. `cd my-project`
 - Open `index.html` on your browser.
 ## Development
