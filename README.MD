@@ -1,4 +1,4 @@
-#JAVASCRIOT QUESTIONNAIRE
+#JAVASCRIPT QUESTIONNAIRE
 This is a web application that the students take to answer questions on javascript.
 ## Prerequisites
 Basic Git knowledge, including an installed version of Git.
