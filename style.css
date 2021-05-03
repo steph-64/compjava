@@ -1,8 +1,11 @@
-.body{
-    background-color: rgb(197, 54, 54);
-    color:black;
-    font-size: 16px;
-    margin: 2rem;
+#body {
     text-align: center;
+}
+#button {
+    background-color:green;
+    color: white;
+    font-size: 10px;
+
+
 
 }
